@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Celular Samsung Galaxy M23 5g 128gb + 4gb Ram Azul Claro",
+    "price": 5249,
+    "phoneImg": [
+      "https://http2.mlstatic.com/D_NQ_NP_917392-MLA49377079198_032022-O.webp"
+    ],
+    "send": "Envio gratis",
+    "star": 3,
+    "resume": 621,
+    "colors": ["negro", "blanco", "gris"]
+  },
+  {
+    "id": 2,
+    "title": "Realme 9i Dual SIM 128 GB prism blue 4 GB RAM",
+    "price": 4199,
+    "phoneImg": [
+      "https://http2.mlstatic.com/D_Q_NP_2X_656268-MLA49263826968_032022-AB.webp"
+    ],
+    "send": "Envio por $ 399",
+    "star": 4.5,
+    "resume": 803,
+    "colors": ["azul", "rojo"]
+  }
+]

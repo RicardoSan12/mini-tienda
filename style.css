@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(76, 0, 163);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+ul {
+  outline: none;
+  padding: none;
+}
+li {
+  list-style: none;
+}
+
+div label {
+  font-size: 0.8rem;
+}
+button,
+input {
+  border: none;
+  outline: none;
+  color: white;
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+button span {
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 6px 0;
+}
+h4 {
+  font-size: 0.8rem;
+}
+
+.shopping {
+  background: rgb(0, 209, 10);
+  font-weight: 700;
+}
+
+.favorite-button {
+  background: rgb(223, 255, 225);
+  font-weight: 600;
+  color: rgb(0, 230, 11);
+}
+/* Header and navBar */
+.Header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 32, 32);
+  width: 100%;
+  padding: 0 20px;
+
+  /* quitar font size*/
+  /* font-size: 8px; */
+}
+.Header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  max-width: 300px;
+}
+.Header-logo {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+/* Header and navBar */
+
+/* Phones products */
+
+.Phone {
+  display: flex;
+  padding: 6px;
+  background-color: rgb(16, 13, 173);
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.favorite {
+  /* favorite-icon */
+  width: 20px;
+  height: 20px;
+  background: rgb(255, 0, 140);
+  position: absolute;
+  top: 14px;
+  left: 24%;
+  z-index: 10;
+}
+
+.movil {
+  width: 30%;
+  /* max-height: 170px; */
+}
+
+.movil img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.PhoneInfo {
+  padding: 5px;
+  width: 70%;
+}
+.PhoneInfo h2 {
+  margin: 5px 0;
+}
+.PhoneInfo div {
+  margin: 4px 0;
+  font-size: 12px;
+}
+h5 {
+  font-size: 14px;
+}
+/* Phones products */
+
+/* MAs detalles del produtos */
+.PhoneDetail {
+  width: 100%;
+  max-width: 1000px;
+  padding: 15px;
+  background: linear-gradient(180deg, rgb(0, 39, 212), rgb(0, 218, 207));
+}
+.PhoneDetail p {
+  margin: 8px 0;
+}
+
+.PhoneDetail-container picture img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.PhoneDetail-content {
+  width: 100%;
+  max-width: 500px;
+  /* padding: 10px; */
+}
+
+.PhoneDetail-content button,
+.PhoneDetail__total {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+  margin: 5px 0;
+  min-width: 200px;
+}
+
+.PhoneDetail__btns button {
+  background-color: rgb(6, 0, 39);
+  text-align: start;
+  padding: 12px 20px;
+  position: relative;
+}
+.PhoneDetail__btns button::after {
+  content: 'V';
+  font-size: 1rem;
+  color: rgb(0, 255, 34);
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+
+.PhoneDetail__total {
+  background: rgb(0, 14, 22);
+  padding-left: 15px;
+  margin: 15px 0;
+}
+.PhoneDetail__total span {
+  width: 30%;
+}
+.PhoneDetail__total input {
+  width: 70%;
+  padding: 16px 14px;
+}
+
+.PhoneDetail-content .favorite-button,
+.PhoneDetail-content .shopping {
+  padding: 12px 0;
+}
+/* MAs detalles del produtos */
