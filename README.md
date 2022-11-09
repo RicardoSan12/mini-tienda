@@ -1,3 +1,4 @@
 # mini-tienda
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/rick-shop)
+Una replica de una tienda en linea
+-Por ahora solo esta estilada la parte de producto
